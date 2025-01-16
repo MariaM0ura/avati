@@ -7,7 +7,6 @@ import "react-toastify/dist/ReactToastify.css";
 const Login = () => {
   const [username, setUsername] = useState("");
   const [password, setPassword] = useState("");
-  const [message, setMessage] = useState("");
 
   const handleSubmit = (event) => {
     event.preventDefault();
